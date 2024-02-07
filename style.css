@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+    margin: 1rem;
+    padding:1rem;
+}
+header {
+    color: aqua;
+    background-color: blue;
+    width:100%;
+    height:5rem;
+    display: flex;
+    justify-content: space-between;
+}
+ #home .circle{ 
+    height:100 vh;
+    width:100vw;
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+ } 
+ #home{
+    background-color: aqua;
+    height: 100vh;
+ }
+#home .circle img{
+    height:250px;
+    width:250px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+}
+#Portfolio .upper{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    height:20rem;
+    width:20rem;
+    margin: 1rem;
+    padding:1rem;
+    background-color:pink;
+    border-radius: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Portfolio .lower{
+    display:flex;
+    justify-content: center;
+}
+.rectangle{
+    height:20rem;
+    width:20rem;
+    margin: 1rem;
+    padding:1rem;
+    background-color:pink;
+    display: flex;
+    justify-content: center;
+    border-radius: 0.8rem;
+    align-items: center;
+}
+ .curve{
+    height:200px;
+    width:200px;
+    border-radius:50%;
+    background-color: brown;
+}
+#Portfolio .curve img{
+    height:200px;
+    width:200px;
+    border-radius:50%;
+}
+.rect{
+    height:200px;
+    width:200px;
+    border-radius:50%;
+    background-color: brown;
+}
+#Portfolio .rect img{
+    height:200px;
+    width:200px;
+    border-radius:50%;
+}
+#Portfolio{
+    height: 100vh;
+}
+#About h1{
+    text-align: center;
+}
+#About .left,.right{
+    display: flex;
+    flex-direction: column;
+    align-items:space-around;
+}
+
